@@ -15,5 +15,5 @@ This is how I would create a list called where each index of the list was an ind
 dataframes = [pd.read_csv(x, sep='\t') for x in files]
 
 ## Cleaning multiple DataFrames using a For Loop
-Below is a for loop that was used in a group project I was a part of to iterate our cleaning code over each dataframe corresponding to each participant.
+Here is an example of code using a [for loop to iterate our cleaning code over a list of dataframes](Portfolio Cleaning Loop.md)
 
