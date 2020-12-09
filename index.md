@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/jocimor/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Any Questions? Please email me at [jc208691@dal.ca](mailto:jc208691@dal.ca)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Reading in Data
+Below is how I read in raw data from an experimental study to clean up and use for data analysis.
+First using the glob function I created a list called "files" containing each file starting with 'spid' and ending with 'data.txt'.
 
-### Markdown
+files = glob ('spid*/*_data.txt')
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is how I would create a list where each index of the list was an individual dataframe for each subject in the study, using the list comphrension technique.
 
-```markdown
-Syntax highlighted code block
+dataframes = [pd.read_csv(x, sep='\t') for x in files]
 
-# Header 1
-## Header 2
-### Header 3
+## Cleaning multiple DataFrames using a For Loop
+Here is an example of code using a for loop to [iterate our cleaning code over a list of dataframes](Portfolio_Cleaning_Loop.md).
 
-- Bulleted
-- List
+## Slicing Columns in a DataFrame
+Here is an example of some code I wrote demonstrating how to read in a CSV file, create a DataFrame, and [slice the dataframe for certain columns using the groupby function](Portfolio_groupby.md).
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jocimor/portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Data Visualization
+Here is an example of [some code I wrote to generate a histogram using matplotlib.pyplot](Portfolio_data_visualization.md).
