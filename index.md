@@ -22,4 +22,4 @@ Here is an example of code using a for loop to [iterate our cleaning code over a
 Here is an example of some code I wrote demonstrating how to read in a CSV file, create a DataFrame, and [slice the dataframe for certain columns using the groupby function](Portfolio_groupby.md).
 
 ## Data Visualization
-Here is an example of [some code I wrote to generate a histogram using matplotlib.pyplot](Portfolio_data_visualization.md).
+Here is an example of [some code I wrote to generate a histogram using matplotlib.pyplot](PortfolioHistogram.htm).
