@@ -1,4 +1,8 @@
 
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/jocimor/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+
 Any Questions? Please email me at [jc208691@dal.ca](mailto:jc208691@dal.ca)
 
 ## Reading in Data
