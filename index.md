@@ -1,7 +1,7 @@
 
 ## Welcome to my Portfolio!
 My name is Jocelyn, and I'm a 4th year Neuroscience major at Dalhousie. I've acquired some skills in python and data science that I will be showcasing here.
-<img width="200" alt="Portrait2" src="Portrait2.jpeg">
+<img width="200" alt="Portrait2" src="Portrait2.jpeg" align="right">
 
 Any Questions? Please email me at [jc208691@dal.ca](mailto:jc208691@dal.ca)
 
