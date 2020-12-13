@@ -24,3 +24,6 @@ Here is an example of some code I wrote demonstrating how to read in a CSV file,
 Here is an example of [some code I wrote to generate a histogram using matplotlib.pyplot](PortfolioHistogram.htm).
 
 Here is an example of [some code I wrote to create a boxplot using seaborn](DisneyBoxplot.htm).
+
+## Working with MRI Data
+Here is an example of code I wrote to [apply a mask to an MRI brain image using 
