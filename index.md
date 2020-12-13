@@ -22,4 +22,5 @@ Here is an example of some code I wrote demonstrating how to read in a CSV file,
 
 ## Data Visualization
 Here is an example of [some code I wrote to generate a histogram using matplotlib.pyplot](PortfolioHistogram.htm).
+
 Here is an example of [some code I wrote to create a boxplot using seaborn](DisneyBoxplot.htm).
