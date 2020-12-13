@@ -1,8 +1,6 @@
 
-## Welcome to GitHub Pages
-Hello Demo peeps
-
-You can use the [editor on GitHub](https://github.com/jocimor/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to my Portfolio!
+My name is Jocelyn, and I'm a 4th year Neuroscience major at Dalhousie. I've acquired some skills in python and data science that I will be showcasing here.
 
 Any Questions? Please email me at [jc208691@dal.ca](mailto:jc208691@dal.ca)
 
@@ -24,3 +22,4 @@ Here is an example of some code I wrote demonstrating how to read in a CSV file,
 
 ## Data Visualization
 Here is an example of [some code I wrote to generate a histogram using matplotlib.pyplot](PortfolioHistogram.htm).
+Here is an example of [some code I wrote to create a boxplot using seaborn](DisneyBoxplot.htm).
