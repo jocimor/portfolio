@@ -27,5 +27,8 @@ Here is an example of [some code I wrote to generate a histogram using matplotli
 
 Here is an example of [some code I wrote to create a boxplot using seaborn](DisneyBoxplot.htm).
 
+## Working with EEG Data
+Here is an example of code I wrote to [create a heat map of neural EEG data](PortfolioHeatMaps.htm).
+
 ## Working with MRI Data
 Here is an example of code I wrote to [apply a mask to an MRI brain image using imageio, matplotlib.pyplot, and numpy](ApplyMask2.htm).
