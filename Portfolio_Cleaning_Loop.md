@@ -1,4 +1,5 @@
-#### Below is a for loop that was used in a group project I was a part of to iterate our cleaning code over each dataframe corresponding to each participant.
+# Cleaning Data
+## "Cleaning data" refers to the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset. In a group project I participated in, we had a list of files where each file corresponded to the data for one subject. Below is a for loop that was used in this project I was a part of to create a dataframe for each subject, and iterate our cleaning code over each dataframe.
 
 
 ```python
