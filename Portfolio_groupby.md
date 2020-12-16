@@ -1,4 +1,6 @@
 # Slicing Columns in a Dataframe
+## Sometimes when examining a Dataframe there is more information contained in the entire dataframe than you're interested in. For that reason it can be helpful to slice a dataframe, such that you are only examining what you're concerned with. This process is demonstrated below.
+
 ## Import Pandas
 
 
