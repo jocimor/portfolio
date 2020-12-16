@@ -1,18 +1,19 @@
-### Import Pandas
+# Slicing Columns in a Dataframe
+## Import Pandas
 
 
 ```python
 import pandas as pd
 ```
 
-### Read in Data
+## Read in Data
 
 
 ```python
 df = pd.read_csv("ROLLING_STONE_TOP_500_ALBUMS.csv")
 ```
 
-### Print df
+## Print df
 
 
 ```python
@@ -100,14 +101,14 @@ df.head()
 
 
 
-### Groupby Position and Artist
+## Groupby Position and Artist
 
 
 ```python
 df_artist = pd.DataFrame(df.groupby(['Position','Artist']).mean())
 ```
 
-### Print Artists of Top 5 Albums
+## Print Artists of Top 5 Albums
 
 
 ```python
