@@ -23,12 +23,12 @@ Here is an example of code using a for loop to [iterate our cleaning code over a
 Here is an example of some code I wrote demonstrating how to read in a CSV file, create a DataFrame, and [slice the dataframe for certain columns using the groupby function](Portfolio_groupby.md).
 
 # Data Visualization
-Here is an example of [some code I wrote to generate a histogram using matplotlib.pyplot](PortfolioHistogram.htm).
+Here is an example of [some code I wrote to generate a histogram using matplotlib.pyplot](PortfolioHistogram2.htm).
 
-Here is an example of [some code I wrote to create a boxplot using seaborn](DisneyBoxplot.htm).
+Here is an example of [some code I wrote to create a boxplot using seaborn](DisneyBoxplot2.htm).
 
 # Working with EEG Data
-Here is an example of code I wrote to [create a heat map of neural EEG data](PortfolioHeatMaps.htm).
+Here is an example of code I wrote to [create a heat map of neural EEG data](PortfolioHeatMaps2.htm).
 
 # Working with MRI Data
-Here is an example of code I wrote to [apply a mask to an MRI brain image using imageio, matplotlib.pyplot, and numpy](ApplyMask2.htm).
+Here is an example of code I wrote to [apply a mask to an MRI brain image using imageio, matplotlib.pyplot, and numpy](PortfolioMask.htm).
